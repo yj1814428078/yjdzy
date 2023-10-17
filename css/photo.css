@@ -1,0 +1,28 @@
+/* 中间内容区域 */
+#mian_photo {
+    width: 1015px;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+#mian_photo>div {
+    margin-left: 5px;
+    float: right;
+}
+
+#mian_photo>div:first-child {
+    margin-left: 0px;
+    float: none;
+}
+
+#photo_imgs {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+}
+
+#photo_imgs img {
+    width: 250px;
+    border-radius: 4px;
+    margin-top: 5px;
+}

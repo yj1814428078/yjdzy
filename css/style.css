@@ -1,0 +1,191 @@
+/* 清除全局格式 */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* 头部背景图 */
+#title {
+    width: 100%;
+    height: 500px;
+    background: url(../images/banner.png) no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/* 头部导航栏 */
+#nav {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+}
+
+/* logo字体 */
+#logo {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    padding-right: 30px;
+    border-right: 1px solid rgba(204, 204, 204, 0.37);
+    margin-right: 30px;
+}
+
+/* 头部导航栏超链接 */
+#nav_title {
+    display: inline-block;
+}
+
+#nav_title a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 5px;
+}
+
+#nav_title a:hover {
+    border-bottom: 2px solid #fff;
+
+}
+
+#nav_right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 60px;
+}
+
+#nav_right input {
+    border: 0px;
+    border-radius: 15px;
+    height: 28px;
+    padding-left: 10px;
+}
+
+#nav_right input::placeholder {
+    color: rgb(159, 159, 159);
+}
+
+#nav_right a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* 名言 */
+#mingyan {
+    color: #fff;
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 30px;
+    font-family: 楷体;
+    box-sizing: border-box;
+    padding-left: 850px;
+    padding-top: 50px;
+    line-height: 40px;
+}
+
+#mingyan p {
+    width: 20px;
+    display: inline-block;
+}
+
+#mingyan p:nth-child(2) {
+    margin-left: 20px;
+}
+
+#mingyan p:nth-child(3) {
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* 全局h1标题 */
+h1 {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid #333;
+}
+
+
+/* 底部导航栏开始 */
+footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #111C18;
+}
+
+#footer {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+#logo2 {
+    position: absolute;
+    font-size: 30px;
+    line-height: 50px;
+    padding-right: 30px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+#time {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* 小导航栏 */
+#mini_daohang {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 40px;
+    color: rgb(107, 107, 107);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#mini_daohang a {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+}
+
+#mini_daohang a:hover {
+    color: #1d8eca;
+}
+
+#mini_daohang span {
+    color: rgb(107, 107, 107);
+    margin: 0 10px;
+}
+
+/* 中间内容区域 */
+#main {
+    width: 1200px;
+    background-color: rgb(248, 247, 247);
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#main p {
+    margin-top: 10px;
+}
